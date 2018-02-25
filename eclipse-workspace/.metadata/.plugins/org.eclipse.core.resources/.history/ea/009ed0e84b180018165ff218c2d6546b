@@ -1,0 +1,26 @@
+
+// Methods are overloaded in the same class
+
+public class OverloadingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void foo( int x)
+	{
+		System.out.println("foo is calling String " +x);
+	}
+	
+	public void foo(String x) {
+		
+		System.out.println("foo is calling String " +x);
+	}
+	
+	public void foo(Double x) {
+		System.out.println("foo is calling Double " +x);
+
+	}
+
+}

@@ -1,0 +1,39 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class TestLinkedList {
+	LinkedList l;
+
+	@Before
+	public void setUp() throws Exception {
+		l = new LinkedList();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testSucessfulInsert() {
+		String data = "Prachi";
+		l.insertElement(data);
+		boolean present = l.isPresent(data);
+		Assert.assertTrue(present);
+		
+	}
+
+	@Test
+	public void testListFull() {
+		String data = "Prachi";
+		l.insertElement(data);
+		boolean present = l.isPresent(data);
+		Assert.assertTrue(present);
+		
+	}
+
+
+}

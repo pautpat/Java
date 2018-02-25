@@ -1,0 +1,51 @@
+
+// Methods are overloaded in the same class
+
+public class OverloadingExample {
+
+	public static void main(String[] args) {
+		OverloadingExample o = new OverloadingExample();
+		o.foo(10);
+		
+		o.foo(10.0);
+		
+		
+		o.foo("file");
+		
+		
+		o.foo(10, 20);
+		
+		o.foo(10, 20, 30);
+		
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void foo(int x)
+	{
+		System.out.println("foo is calling int " +x);
+	}
+	
+	public void foo(String x) {
+		
+		System.out.println("foo is calling String " +x);
+	}
+	
+	public void foo(Double x) {
+		System.out.println("foo is calling Double " +x);
+
+	}
+	
+	public void foo(int i, int j) {
+		System.out.println("foo is calling 2 integers " +i + " "+ j);
+
+		
+	}
+	
+	public void foo(int i, int j, int k) {
+		System.out.println("foo is calling 3 integers " +i + " "+ j + " "+ k);
+
+		
+	}
+
+}

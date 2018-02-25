@@ -1,0 +1,93 @@
+
+public class LinkedList {
+
+	String[] str;
+	int size = 0;
+	int head = 0;
+	int tail = 0;
+
+	public LinkedList(int size) {
+		this.size = size;
+		str = new String[size];
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean insertElement(String data) {
+		// TODO Auto-generated method stub
+		if (counter == 0) {
+			str[tail] = data;
+			head = 0;
+			
+			tail++;
+			return true;
+		} else if (tail + 1 < size) {
+
+			str[counter] = data;
+			counter++;
+			tail++;
+			return true;
+		} else {
+			System.out.println("List is full");
+			return false;
+		}
+
+	}
+
+	public boolean isPresent(String data) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i <= tail; i++) {
+			if (str[i] == data)
+				return true;
+		}
+		return false;
+
+	}
+
+	/*public void deleteElement(String data) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < size; i++) {
+			if (str[i] == data) {
+				if (i == tail) {
+					if (head != tail) {
+						if (tail == size - 1) {
+							tail--;
+						} else {
+							int j = 0;
+							for (j = i; j < tail; j++) {
+								str[j] = str[j + 1];
+
+							}
+							tail = j;
+						}
+					} else if (head == tail) {
+						str[i] = null;
+					}
+
+				}
+
+			}
+		}
+
+	}*/
+	
+	public void deleteFirstElement(String data) {
+		for (int i = 0; i < size; i++) {
+			if (str[i].equals(data)) {
+				if(i==head && tail!=head) {
+					head++;
+					
+				}
+				else {
+					head=0;
+					tail=0;
+				}
+				break;
+			}
+	}
+
+}
+}

@@ -1,0 +1,18 @@
+<apex:page standardController="Account" extensions="AccountExt">
+  <apex:pageBlock >
+  <apex:PageBlockSection >
+  <apex:form >
+  Enter a Keyword :
+  <apex:inputText value="{!searchString}"/>
+  <apex:commandButton value="Search" action="{!searchAccount}"/>
+  </apex:form>
+  </apex:PageBlockSection>
+  </apex:pageBlock>
+  <apex:pageBlock >  
+        <apex:pageBlockTable value="{!lstAccounts}" var="acc">
+         <apex:column value="{!acc.id}"/>
+         <apex:column value="{!acc.name}"/>
+         <apex:column value="{!acc.rating}"/>
+      </apex:pageBlockTable>
+  </apex:pageBlock>
+</apex:page>

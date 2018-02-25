@@ -1,0 +1,55 @@
+
+// Methods are overloaded in the same class
+
+public class OverloadingExample {
+
+	public static void main(String[] args) {
+		OverloadingExample o = new OverloadingExample();
+		o.foo(10);
+		
+		// For floats you need to appenf 'f' to the number, otherwise it is treated as int
+		// And if you use decimal point it is treates as Double
+		o.foo(10f);
+		
+		
+		o.foo("file");
+		
+		
+		o.foo(10, 20);
+		
+		o.foo(10, 20, 30);
+		
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+	
+	public void foo(int x)
+	{
+		System.out.println("foo is calling int " +x);
+	}
+	
+	public void foo(String x) {
+		
+		System.out.println("foo is calling String " +x);
+	}
+	
+	public void foo(Double x) {
+		System.out.println("foo is calling float " +x);
+
+	}
+	
+	public void foo(int i, int j) {
+		System.out.println("foo is calling 2 integers " +i + " "+ j);
+
+		
+	}
+	
+	public void foo(int i, int j, int k) {
+		System.out.println("foo is calling 3 integers " +i + " "+ j + " "+ k);
+
+		
+	}
+
+}

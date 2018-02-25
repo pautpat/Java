@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address Line 1 --></label>
+        <name>Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomerID --></label>
+        <name>CustomerID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Type --></label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Non-Student</masterLabel>
+            <translation><!-- Non-Student --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation><!-- Student --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Ordered --></label>
+        <name>Last_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Invoices --></label>
+        <name>Number_of_Invoices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>Az</masterLabel>
+            <translation><!-- Az --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ca</masterLabel>
+            <translation><!-- Ca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mi</masterLabel>
+            <translation><!-- Mi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tx</masterLabel>
+            <translation><!-- Tx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Va</masterLabel>
+            <translation><!-- Va --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wa</masterLabel>
+            <translation><!-- Wa --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- can contact directly --></label>
+        <name>can_contact_directly__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A person must be greater than 18 years of age --></errorMessage>
+        <name>DOB_should_not_be_greater_than_today</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- City cannot be blank for students --></errorMessage>
+        <name>Mandate_city_if_customer_type_is_student</name>
+    </validationRules>
+</CustomObjectTranslation>

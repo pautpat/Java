@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CallByReference {
+	
+	public void foof() {
+		
+	
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> str = new ArrayList<String>{};
+
+	}
+
+}

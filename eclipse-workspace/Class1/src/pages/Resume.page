@@ -1,0 +1,150 @@
+<apex:page showHeader="false" renderAs="PDF" >
+<head>
+
+</head>
+<body>
+<div id="header" style="text-align:center;float:none; position:relative;background: linear-gradient(to bottom, #ccffff 0%, #ffffcc 100%); border:2px solid DodgerBlue; height:250%;width:100%;">
+
+<h1 style="color:#00008B;font-size:40pt;display:block">Prachi Utpat</h1>
+<h1 style="font-weight:20pt;color:#0066CC;font-size:20pt;display:block">Address:Frisco, Texas - Phone:4087614383 - Status:US Citizen</h1>
+</div>
+<div id="body" style="float:none;position:relative;background-color:#FFFAF0 ; border:2px solid DodgerBlue; height:auto;width:100%;">
+<ul style="list-style-type:square; font-size:20px; display: block;">
+<li>  7+ years of experience in software domain as a Project Lead/ Scrum Master with onshore offshore coordination</li>
+<li>  Excellent communication, coordination, leadership and mentoring skills</li>
+<li> 4 years of experience as a Scrum Master with focus on teams adopting Agile Methodologies</li>
+<li>  Strong collaboration skills across different teams – PMO, Release management, Engineering, and Scrum teams</li>
+<li>  Strong knowledge of all phases of SDLC including requirement analysis, design and
+testing (Functional, Integration, Performance, Quality Metrics)</li>
+<li>  Experience with Client-Server applications, Restful/Soap Webservices, Publisher/Subscriber based Messaging Applications, Application Layer Routing Service, AWS</li>
+</ul>
+
+<h2 style="font-size:20px; color:#003399;">Professional Experience</h2>
+<hr></hr>
+<h1 id="company" style="font-size:20px; color:#000066;">Intuit - Scrum Master May 2015 – Aug 2017</h1><br/>
+<br/>
+<h2 style="font-size:18px; color:#000066;">Projects</h2><br/>
+<h4 style="color:#000066;"><span style="font-size:16px;">QBO Migration to AWS </span><span style="font-size:14px;">- Test Project Lead / Scrum Master for QBO migration to AWS on data, App and Infrastructure front</span></h4>
+<ul id="sub-list" style="list-style-type:circle; font-size:16px; display: block;">
+<li>Facilitated Daily Standups, Sprint Planning, Retrospective and Review meetings</li>
+<li>Maintained and Reviewed Jira Boards and presented metrics at the end of each sprint</li>
+<li> Worked closely with product owner and project manager for backlog grooming</li>
+<li> Removed impediments for the scrum team by coordinating with other scrum teams for 
+    dependency features</li>
+<li>Tracked dependencies with other team in Scrum of Scrums</li>
+<li>Coordinated product releases and performed live testing of QBO during switchover between Intuit Hosting Platform and AWS</li>
+<li>Protected team from cross team job requests </li>
+</ul>
+<h4 style="color:#000066;"><span style="font-size:16px;">Data Reporting Platform </span><span style="font-size:14px;">- Built and released first version of new Payroll SOX data reporting platform using Pentaho reporting tool for Small Business Group/Monitoring Team</span></h4>
+<ul id="sub-list" style="list-style-type:circle; font-size:16px; display: block;">
+<li>Gathered requirements from Business Analysts</li>
+<li>Worked with project managers to prioritize the releases</li>
+<li>Facilitated Sprint Planning, daily Scrums, Retrospective and Review meetings</li>
+<li>Removed obstacle for the team by escalating an issue to leadership resulting in early delivery of customer issue solution</li>
+<li>Ensured Jira stories are updated regularly, and ensured iteration scope is met by the team successfully</li>
+<li>Presented the demo of new reporting platform to the stakeholders</li>
+</ul>
+<h1 id="company" style="font-size:20px; color:#000066;">PayPal, Infrastructure Software QA Lead / Scrum Master 2011 -May 2015</h1>
+<ul id="sub-list" style="list-style-type:square; font-size:16px; display: block;">
+<li>Worked as a Scrum Coach with teams to migrate from Waterfall to Agile model and guided the team to adopt Agile methodologies</li>
+<li>Collaborated with Product Owner in backlog grooming</li>
+<li>Conducted Daily Standups, Sprint Planning, Retrospective, Review, and Backlog Prioritization Meetings</li>
+<li>Ensured definition of done is established</li>
+<li>Coordinated product releases, and did internal product support addressing the issues of
+internal customers</li>
+<li>Involved in technical design discussions with architects and product owners and provided useful feedback on design enhancement</li>
+</ul>
+
+<h2 style="font-size:18px; color:#000066;">Projects</h2><br/>
+<ul id="sub-list" style="list-style-type:circle; font-size:16px; display: block;">
+<li>Data Center migration – Migration of PayPal data center from one location to other</li>
+<li>Mayfly - a key-based in-memory datastore system, with both intra-site and inter-site data backup to guarantee high reliability and availability</li>
+<li>Slingshot - Application Layer Router: Service that preprocesses requests from load balancer and routes them to different web application pools</li>
+</ul>
+<br/>
+<h2 style="font-size:18px; color:#000066;">Technical Skills</h2>
+<table id="skills" style="width:80%;margin-left:2%; margin-bottom:1%">
+<tr style="background-color:#088A4A;text-align: left;font-size:15px">
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">SDLC Methodologies</th>
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">PMI Tools</th> 
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">Version Control Systems</th>
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">Technologies</th>
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">Programming Languages</th>
+    <th style="padding-top:12px;padding-bottom:12px;border:1px solid #ddd;padding: 8px;">Operating Systems</th>
+</tr>
+<tr>
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>Agile</li>
+    <li>Waterfall</li>
+    <li>Scrum</li>
+    </ul></td>
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>Jira</li>
+    <li>Rally</li>
+    <li>Confluence Wiki</li>
+    <li>Visio</li>
+    <li>Ms Office</li>
+    </ul>
+</td> 
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>Git</li>
+    <li>SVN</li>
+    </ul>
+    </td>
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>AWS</li>
+    <li>PaaS</li>
+    <li>Oracle</li>
+    <li>Sql</li>
+    <li>Ms SQL Server</li>
+    <li>Continuous Integration/Continuous Development</li>
+    <li>TDD</li>
+    <li>BDD</li>
+    </ul>
+    </td>
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>Shell Scripting</li>
+    <li>Java</li>
+    <li>Python</li>
+    </ul>
+    </td>
+    <td style="padding:8px;border:1px solid #ddd;padding: 8px;">
+    <ul style="list-style-type:circle; font-size:14px; display: block;">
+    <li>Linux</li>
+    <li>Windows</li>
+    </ul>
+    </td>
+</tr>
+</table>
+<h2 style="font-size:18px; color:#000066;">Education</h2>
+<ul style="font-size:16px; color:#000066;">
+<li>
+MS – Software Engineering, 2009 San Jose State University, San Jose, CA.
+</li>
+</ul>
+<h2 style="font-size:18px; color:#000066;">Awards</h2>
+<ul style="font-size:16px; color:#000066;">
+<li>
+Received 2 Spot Awards in 2016 for Intuit QBO Migration to AWS
+</li>
+<li>
+Received Spot Award in 2012 for PayPal Data Center Migration Project
+</li>
+</ul>
+<h2 style="font-size:18px; color:#000066;">Scrum Alliance</h2>
+<ul style="font-size:16px; color:#000066;">
+<li>
+Certified Scrum Product Owner 
+</li>
+<li>
+Certified Scrum Master 
+</li>
+</ul>
+</div>
+</body>
+</apex:page>

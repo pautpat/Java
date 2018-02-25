@@ -1,0 +1,25 @@
+
+public class StudyEquals {
+
+	static String st1 = "Prachi";
+	static String st2 = "Prachi";
+	static String st3 = new String("Prachi");
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(st1);
+		System.out.println(st2);
+		System.out.println(st3);
+		System.out.println(st1 == st2);
+		System.out.println(st2 == st3);
+		System.out.println(st2.equals(st3));
+
+		
+		System.out.println(Integer.toHexString(st1.hashCode()));
+		System.out.println(Integer.toHexString(st2.hashCode()));
+		System.out.println(Integer.toHexString(st3.hashCode()));
+
+
+	}
+
+}

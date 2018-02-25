@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact Details --></label>
+        <name>Contact_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Summary --></label>
+        <name>First_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Professional Experience Company One --></label>
+        <name>Professional_Experience_Company_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project One --></label>
+        <name>Project_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsibility One --></label>
+        <name>Responsibility_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsibility Three --></label>
+        <name>Responsibility_Three__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsibility Two --></label>
+        <name>Responsibility_Two__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Summary --></label>
+        <name>Second_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto generated system id for the student --></help>
+        <label><!-- StudentID --></label>
+        <name>StudentID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Summary --></label>
+        <name>Third_Summary__c</name>
+    </fields>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Student_Data_VF --></label>
+        <name>Student_Data_VF</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,73 @@
+// Linked list implementation using Array
+public class LinkedList {
+
+	String[] str;
+	int size = 0;
+	int head = 0;
+	int tail = -1;
+
+	public LinkedList(int size) {
+		this.size = size;
+		str = new String[size];
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public boolean insertElement(String data) {
+		// TODO Auto-generated method stub
+		if (tail == -1) {
+			str[head] = data;
+			tail++;
+			return true;
+		} else if (tail < size - 1) {
+			tail++;
+			str[tail] = data;
+			return true;
+		} else {
+			System.out.println("List is full");
+			return false;
+		}
+
+	}
+
+	public boolean isPresent(String data) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i <= tail; i++) {
+			if (str[i] == data)
+				return true;
+		}
+		return false;
+
+	}
+
+	public boolean deleteElement(String data) {
+		// Find the index of the element
+		for (int i = 0; i < size; i++) {
+			// Get the index where the data matches
+			if (str[i].equals(data)) {
+				// If only one element is present
+				if (tail == 0) {
+					tail--;
+					//Check if the element is the last element in the list
+				} else if (i == size - 1) {
+					tail--;
+
+				} else 
+					//If the element is located in the middle of the list
+					{
+					for (int j = i; j < tail; j++) {
+						str[j] = str[j + 1];
+					}
+					tail--;
+				}
+				break;
+			}
+			
+		}
+		return false;
+	}
+
+}

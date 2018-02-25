@@ -1,0 +1,62 @@
+
+public class LinkedList2 implements LinkedListInterface {
+	
+	public int size;
+	Node head = null;
+	Node tail = null;
+	
+	public LinkedList2(int size) {
+		this.size = size;
+	}
+	
+	public void insertElement(int data) {
+		Node node =  new Node(data);
+		if(head == null) {
+			head = node;
+			tail = node;
+		}
+		
+		
+	}
+	class Node{
+		int data;
+		Node nextNode;
+		
+		public Node(int data)
+		{
+			this.data=data;
+			nextNode = null;
+		}
+		
+		public String getData() {
+			
+		}
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+	@Override
+	public boolean insertElement(String data) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isPresent(String data) {
+		
+	}
+
+	@Override
+	public boolean deleteElement(String data) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

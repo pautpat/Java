@@ -1,0 +1,14 @@
+
+public class StudyEquals {
+	
+	String st1 = "Prachi";
+	String st2 = "Prachi";
+	String st3 = "Pra"+"chi";
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

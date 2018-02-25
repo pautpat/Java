@@ -1,0 +1,7 @@
+Hi {!User.FirstName} , <br><//br>
+
+A nmew Item is created , please verify item detaila <br><br/>
+
+{!Item__c.ProductName__c} <br><br/>
+
+{!Item__c.ItemID__c} <br><br/>

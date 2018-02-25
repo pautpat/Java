@@ -1,0 +1,41 @@
+
+public class PolymorphismExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal A = new Animal();
+		A.talk();
+		
+		Dog d = new Dog();
+		d.talk();
+		
+		// Which class method being called depends on the new instance of which class is being called
+		Animal B = new Dog();
+		B.talk();
+
+	}
+
+}
+// This class cannot be public since only one class is public in file in Java
+class Animal {
+	 
+	public void talk() {
+		 System.out.println("Animal talk is callled");
+		 
+	 }
+	
+	public void walk() {
+		 System.out.println("Animal walk is callled");
+
+		
+	}
+	
+}
+
+class Dog extends Animal{
+	public void talk() {
+		 System.out.println("Dog Barks");
+		 
+	 }
+	
+}

@@ -1,0 +1,3 @@
+Review for 
+ER Name :  {! Executive_Review__c.Name}
+Opportunity Name : 	{!Executive_Review__c.Opportunity__c}

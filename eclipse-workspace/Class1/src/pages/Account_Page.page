@@ -1,0 +1,19 @@
+<apex:page standardController="Account">
+  <!-- Begin Default Content REMOVE THIS -->
+  <apex:pageBlock >
+  
+  <apex:pageBlockSection title="Account Details" columns="2">
+  <apex:outputField value="{!Account.Name}"/>
+  <apex:outputField value="{!Account.Rating}"/>
+  </apex:pageBlockSection>
+  
+  <apex:pageBlockSection title="Input Form">
+  <apex:form >
+  <apex:inputField value="{!Account.Name}"/>
+  <apex:commandButton value="Save" action="{!Save}"/>
+  </apex:form>
+  </apex:pageBlockSection>
+  
+  </apex:pageBlock>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

@@ -1,0 +1,29 @@
+
+public class LinkedList2 {
+		
+	
+	
+	public void insertNode() {
+		
+	}
+	class Node{
+		int data;
+		Node nextNode;
+		int size;
+		
+		public Node(int size)
+		{
+			this.size=size;
+		}
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

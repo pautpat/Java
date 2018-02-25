@@ -1,0 +1,31 @@
+<apex:page showHeader="false" standardController="Students__c" >
+<head>
+
+</head>
+
+<div id="header" style="text-align:center;float:none; position:relative;background: linear-gradient(to bottom, #ccffff 0%, #ffffcc 100%); border:2px solid DodgerBlue; height:250%;width:100%;">
+
+<h1 style="color:#00008B;font-size:40pt;display:block">{!Students__c.Name}</h1>
+<h1 style="font-weight:20pt;color:#0066CC;font-size:20pt;display:block">{!Students__c.Contact_Details__c}</h1>
+</div>
+<body>
+<div id="body" style="float:none;position:relative;background-color:#FFFAF0 ; border:2px solid DodgerBlue; height:auto;width:100%;">
+<ul style="list-style-type:square; font-size:20px; display: block;">
+<li> {!Students__c.First_Summary__c}</li>
+<li>  {!Students__c.Second_Summary__c}</li>
+<li> {!Students__c.Third_Summary__c}</li>
+</ul>
+<h2 style="font-size:20px; color:#003399;">Professional Experience</h2>
+<hr></hr>
+<h1 id="company" style="font-size:20px; color:#000066;">{!Students__c.Professional_Experience_Company_One__c}</h1><br/>
+<br/>
+<h2 style="font-size:18px; color:#000066;">Projects</h2><br/>
+<h4 style="color:#000066;">{!Students__c.Project_One__c}></h4>
+<ul id="sub-list" style="list-style-type:circle; font-size:16px; display: block;">
+<li>{!Students__c.Responsibility_One__c}</li>
+<li>{!Students__c.Responsibility_Two__c}</li>
+<li> {!Students__c.Responsibility_Three__c}</li>
+</ul>
+</div>
+</body>
+</apex:page>

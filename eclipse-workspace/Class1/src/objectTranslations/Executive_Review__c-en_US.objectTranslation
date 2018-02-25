@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Executive Review</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Executive Reviews</value>
+    </caseValues>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Executive Reviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submit for Approval --></label>
+        <name>Submit_for_Approval__c</name>
+    </fields>
+    <layouts>
+        <layout>Executive Review Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
